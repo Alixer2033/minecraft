@@ -1,148 +1,85 @@
-[23:19:07] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[23:19:07] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_221\jre
-[23:19:07] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[23:19:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:19:07] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:19:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:19:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:19:07] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:19:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:19:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:19:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:19:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:19:09] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[23:19:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[23:19:09] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[23:19:14] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[23:19:14] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
-[23:19:14] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
-[23:19:14] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[23:19:14] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[23:19:14] [Server thread/INFO] [FML/]: Searching C:\Users\25314\Desktop\Ur\mods for mods
-[23:19:15] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
-[23:19:15] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus] at CLIENT
-[23:19:15] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus] at SERVER
-[23:19:16] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[23:19:16] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
-[23:19:16] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[23:19:16] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[23:19:16] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[23:19:16] [Server thread/INFO] [FML/]: Applying holder lookups
-[23:19:16] [Server thread/INFO] [FML/]: Holder lookups applied
-[23:19:16] [Server thread/INFO] [FML/]: Injecting itemstacks
-[23:19:16] [Server thread/INFO] [FML/]: Itemstack injection complete
-[23:19:16] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
-[23:19:16] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[23:19:16] [Server thread/INFO] [Minecraft/]: Using 8 threads for Netty based IO
-[23:19:17] [Server thread/INFO] [FML/]: Injecting itemstacks
-[23:19:17] [Server thread/INFO] [FML/]: Itemstack injection complete
-[23:19:17] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
-[23:19:18] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@69cf5415)
-[23:19:18] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@69cf5415)
-[23:19:18] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@69cf5415)
-[23:19:21] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[23:19:26] [Server thread/INFO] [/]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
-[23:19:26] [Server thread/INFO] [/]: [0;37;22mUse /help [n] to get page n of help.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22mAliases: [0;37;1mLists command aliases[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/achievement: [0;37;1mGives the specified player an achievement or changes a statistic value. Use '*' to give all achievements.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/cauldron: [0;37;1mToggle certain Cauldron options[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/cauldron_e: [0;37;1mToggle certain TileEntity options[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/cauldron_te: [0;37;1mToggle certain TileEntity options[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/help: [0;37;1mShows the help menu[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/list: [0;37;1mLists all online players[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:achievement: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:ban: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:ban-ip: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:banlist: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:clear: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:defaultgamemode: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:deop: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:difficulty: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:effect: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:enchant: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:gamemode: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:gamerule: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:give: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:kick: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:kill: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:list: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:me: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:op: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:pardon: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:pardon-ip: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:playsound: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:say: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:scoreboard: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:seed: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:setidletimeout: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:setworldspawn: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:spawnpoint: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:spreadplayers: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:testfor: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:time: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:toggledownfall: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:weather: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:whitelist: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/minecraft:xp: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/netstat: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/restart: [0;37;1mRestarts the server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the sender[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/seed: [0;37;1mShows the world seed[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/setidletimeout: [0;37;1mSets the server's idle timeout[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/setworldspawn: [0;37;1mSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/time: [0;37;1mChanges the time on each world[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/timings: [0;37;1mManages Spigot Timings data to see performance of the server.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/title: [0;37;1mA Mojang provided command.[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/um: [0;37;1m[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/weather: [0;37;1mChanges the weather[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
-[23:19:26] [Server thread/INFO] [/]: [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
-[23:19:32] [Server thread/INFO] [/]: [0;33;22mTPS from last 1m, 5m, 15m: [0;32;1m*20.0, [0;32;1m*20.0, [0;32;1m*20.0[m
-[23:19:46] [Server thread/INFO] [/]: There are 0/20 players online:
-[m
-[23:19:50] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
-[23:19:54] [Server thread/INFO] [/]: [0;31;1mUsage: /say <message ...>[m
-[23:19:57] [Server thread/INFO] [/]: [0;35;1m[Server[0;35;1m] 11111[m
+[09:21:34] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[09:21:35] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[09:21:35] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[09:21:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:21:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:21:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:21:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:21:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:21:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:21:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:21:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:21:38] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:21:39] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[09:21:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[09:21:39] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[09:21:46] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[09:21:46] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[09:21:46] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[09:21:46] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[09:21:47] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[09:21:47] [Server thread/INFO] [FML/]: Searching /home/minecraft/mods for mods
+[09:21:49] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 8 mods to load
+[09:21:49] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
+[09:21:49] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
+[09:21:50] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[09:21:50] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[09:21:50] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[09:21:50] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[09:21:50] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[09:21:50] [Server thread/INFO] [FML/]: Applying holder lookups
+[09:21:50] [Server thread/INFO] [FML/]: Holder lookups applied
+[09:21:50] [Server thread/INFO] [FML/]: Injecting itemstacks
+[09:21:50] [Server thread/INFO] [FML/]: Itemstack injection complete
+[09:21:51] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[09:21:51] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[09:21:51] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
+[09:21:52] [Server thread/INFO] [FML/]: Injecting itemstacks
+[09:21:52] [Server thread/INFO] [FML/]: Itemstack injection complete
+[09:21:52] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 8 mods
+[09:21:53] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7856 classes, 26736 fields, 53884 methods, flags 1ffa
+[09:21:53] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[09:21:54] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Loading Scavenger v1.6-54
+[09:21:54] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Loading ProtocolLib v3.7.0
+[09:21:55] [Server thread/WARN] [Minecraft/]: [ProtocolLib] [MinecraftReflection] Cannot find standard Minecraft library location. Assuming MCPC.
+[09:21:57] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Enabling ProtocolLib v3.7.0
+[09:21:57] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Started structure compiler thread.
+[09:21:57] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4be17119)
+[09:21:58] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@4be17119)
+[09:21:58] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@4be17119)
+[09:22:11] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Enabling Scavenger v1.6-54
+[09:22:11] [Server thread/INFO] [Minecraft/]: [Scavenger] Configuration loaded.
+[09:22:11] [Server thread/INFO] [Minecraft/]: [Scavenger] Economy disabled. Item recovery will be free.
+[09:22:11] [Server thread/INFO] [Minecraft/]: [Scavenger] Loaded ignore list. (Count = 0)
+[09:22:11] [Server thread/INFO] [Minecraft/]: [Scavenger] Offline-mode is set to false, no Authenticator Hook
+[09:22:11] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[09:26:47] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[09:26:47] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[09:26:47] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[09:26:47] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[09:44:59] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[09:44:59] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[09:44:59] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[09:44:59] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[09:59:54] [Server thread/INFO] [/]: Atlas: Gave Atlas some 364 (COOKED_BEEF)[m
+[10:00:18] [Server thread/INFO] [/]: Atlas: Gave Atlas some 384 (EXP_BOTTLE)[m
+[10:03:33] [Server thread/INFO] [/]: Atlas: Set time to 72000[m
+[10:13:18] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[10:13:18] [Netty IO #1/INFO] [FML/]: Client attempting to join with 36 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[10:13:18] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[10:13:18] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[10:13:37] [Server thread/INFO] [/]: Atlas: Toggling downfall off for world 'world'[m
+[10:13:38] [Server thread/INFO] [/]: Atlas: Toggling downfall on for world 'world'[m
+[10:13:40] [Server thread/INFO] [/]: Atlas: Toggling downfall off for world 'world'[m
+[10:13:41] [Server thread/INFO] [/]: Atlas: Toggling downfall on for world 'world'[m
+[10:13:44] [Server thread/INFO] [/]: Atlas: Set time to 96000[m
+[10:21:33] [Server thread/INFO] [/]: Atlas: Gave Atlas some 275 (STONE_AXE)[m
+[10:21:38] [Server thread/INFO] [/]: Atlas: Gave Atlas some 274 (STONE_PICKAXE)[m
+[10:25:30] [Server thread/INFO] [/]: Atlas: Set time to 120000[m
+[10:28:20] [Server thread/INFO] [/]: Atlas: Set own game mode to CREATIVE mode[m
+[10:28:57] [Server thread/INFO] [/]: Atlas: Set own game mode to ADVENTURE mode[m
+[10:28:57] [Server thread/INFO] [/]: Atlas: Set own game mode to SURVIVAL mode[m
+[10:33:07] [Server thread/INFO] [/]: Atlas: Gave Atlas some 263 (COAL)[m
+[10:33:28] [Server thread/INFO] [/]: Atlas: Gave Atlas some 15 (IRON_ORE)[m
+[10:41:22] [Server thread/INFO] [/]: Atlas: Set own game mode to CREATIVE mode[m
+[10:41:49] [Server thread/INFO] [/]: Atlas: Set time to 144000[m

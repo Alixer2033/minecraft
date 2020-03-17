@@ -1,43 +1,67 @@
-[13:12:40] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[13:12:41] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_221\jre
-[13:12:41] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[13:12:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:12:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:12:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:12:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:12:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:12:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:12:42] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:12:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:12:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[13:12:43] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[13:12:43] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[13:12:43] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[13:12:48] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[13:12:48] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
-[13:12:48] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
-[13:12:48] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[13:12:48] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[13:12:48] [Server thread/INFO] [FML/]: Searching C:\Users\25314\Desktop\Ur\mods for mods
-[13:12:49] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
-[13:12:49] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus] at CLIENT
-[13:12:49] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus] at SERVER
-[13:12:50] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[13:12:50] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
-[13:12:50] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[13:12:50] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[13:12:50] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[13:12:50] [Server thread/INFO] [FML/]: Applying holder lookups
-[13:12:50] [Server thread/INFO] [FML/]: Holder lookups applied
-[13:12:50] [Server thread/INFO] [FML/]: Injecting itemstacks
-[13:12:50] [Server thread/INFO] [FML/]: Itemstack injection complete
-[13:12:50] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
-[13:12:50] [Server thread/INFO] [Minecraft/]: Using 8 threads for Netty based IO
-[13:12:50] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[13:12:51] [Server thread/INFO] [FML/]: Injecting itemstacks
-[13:12:51] [Server thread/INFO] [FML/]: Itemstack injection complete
-[13:12:51] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
-[13:12:52] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@35897fa6)
-[13:12:52] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@35897fa6)
-[13:12:52] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@35897fa6)
-[13:12:55] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[12:58:58] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[12:58:59] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[12:58:59] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[12:58:59] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:59] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:58:59] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:59] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:58:59] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:59:01] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:59:01] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:59:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:59:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:59:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[12:59:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[12:59:03] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:59:09] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[12:59:09] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[12:59:09] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[12:59:09] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[12:59:09] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:59:09] [Server thread/INFO] [FML/]: Searching /home/minecraft/mods for mods
+[12:59:12] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 8 mods to load
+[12:59:12] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
+[12:59:12] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
+[12:59:13] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[12:59:13] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[12:59:13] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[12:59:13] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[12:59:13] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[12:59:13] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:59:13] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:59:13] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:59:13] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:59:14] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[12:59:14] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[12:59:14] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
+[12:59:15] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:59:15] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:59:15] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 8 mods
+[12:59:15] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[12:59:15] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:59:15] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:59:16] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7856 classes, 26736 fields, 53884 methods, flags 1ffa
+[12:59:16] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[12:59:17] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Loading Scavenger v1.6-54
+[12:59:17] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Loading ProtocolLib v3.7.0
+[12:59:18] [Server thread/WARN] [Minecraft/]: [ProtocolLib] [MinecraftReflection] Cannot find standard Minecraft library location. Assuming MCPC.
+[12:59:20] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Enabling ProtocolLib v3.7.0
+[12:59:20] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Started structure compiler thread.
+[12:59:20] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@7cb1f714)
+[12:59:20] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@7cb1f714)
+[12:59:20] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@7cb1f714)
+[12:59:22] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Enabling Scavenger v1.6-54
+[12:59:22] [Server thread/INFO] [Minecraft/]: [Scavenger] Configuration loaded.
+[12:59:22] [Server thread/INFO] [Minecraft/]: [Scavenger] Economy disabled. Item recovery will be free.
+[12:59:22] [Server thread/INFO] [Minecraft/]: [Scavenger] Loaded ignore list. (Count = 0)
+[12:59:22] [Server thread/INFO] [Minecraft/]: [Scavenger] Offline-mode is set to false, no Authenticator Hook
+[12:59:23] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[13:03:43] [Server thread/INFO] [/]: CONSOLE: Stopping the server..[m
+[13:03:43] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Disabling ProtocolLib v3.7.0
+[13:03:43] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Disabling Scavenger v1.6-54
+[13:03:43] [Server thread/INFO] [Minecraft/]: [Scavenger] Saved ignore list. (Count = 0)
+[13:03:43] [Server thread/INFO] [FML/]: Unloading dimension 0
+[13:03:43] [Server thread/INFO] [FML/]: Unloading dimension -1
+[13:03:43] [Server thread/INFO] [FML/]: Unloading dimension 1
+[13:03:43] [Server thread/INFO] [FML/]: Applying holder lookups
+[13:03:43] [Server thread/INFO] [FML/]: Holder lookups applied

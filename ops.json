@@ -1,7 +1,27 @@
 [
   {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "scavenger.level",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "scavenger.scavenge",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "scavenger.free",
+    "level": 4
+  },
+  {
     "uuid": "1d4a9c61-6828-3517-9704-a0518eccaaa5",
     "name": "Atlas",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "scavenger.exp",
     "level": 4
   }
 ]
