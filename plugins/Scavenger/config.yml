@@ -6,7 +6,7 @@ Global:
   SingleItemDrops: false
   SingleItemDropsOnly: false
   Debug: false
-  Permissions: false
+  Permissions: true
   OpsAllPerms: false
   WorldGuardPVPIgnore: false
   WorldGuardPVPOnly: false
