@@ -1,23 +1,23 @@
 lastAccountName: CORE
 timestamps:
-  login: 1585728916028
-  logout: 1585728908375
-  lastteleport: 1585729534851
+  login: 1585739929174
+  logout: 1585742272632
+  lastteleport: 1585739978755
 ipAddress: 148.153.82.27
 lastlocation:
   world: world
-  x: -199.92877206865566
-  y: 77.0
-  z: 256.6322471665276
-  yaw: -7.0207944
-  pitch: 7.596269
+  x: 731.7325179374301
+  y: 70.0
+  z: 561418.9741273075
+  yaw: 269.5963
+  pitch: 7.3610363
 logoutlocation:
   world: world
-  x: 666.8989852250512
-  y: 78.0
-  z: 561365.2526073969
-  yaw: -98.560455
-  pitch: 24.39583
+  x: 962.1925381731467
+  y: 82.88510348954101
+  z: 561299.704498351
+  yaw: 249.84814
+  pitch: 11.73541
 homes:
   home:
     world: world
@@ -26,4 +26,4 @@ homes:
     z: 561367.8133065184
     yaw: 350.54007
     pitch: 26.237616
-afk: true
+afk: false
