@@ -1,51 +1,657 @@
-[15:09:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[15:09:48] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
-[15:09:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
-[15:09:48] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[15:09:49] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[15:09:49] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[15:09:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:09:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:09:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:09:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:09:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:09:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:09:51] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:09:52] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:09:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:09:52] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[15:09:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[15:09:53] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[15:09:59] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[15:09:59] [Server thread/INFO]: Attempting early MinecraftForge initialization
-[15:09:59] [Server thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
-[15:10:00] [Server thread/INFO]: Replaced 183 ore recipies
-[15:10:00] [Server thread/INFO]: Completed early MinecraftForge initialization
-[15:10:00] [Server thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[15:10:00] [Server thread/INFO]: Searching /home/minecraft/mods for mods
-[15:10:02] [Server thread/INFO]: Forge Mod Loader has identified 8 mods to load
-[15:10:02] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
-[15:10:02] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
-[15:10:03] [Server thread/INFO]: Processing ObjectHolder annotations
-[15:10:03] [Server thread/INFO]: Found 341 ObjectHolder annotations
-[15:10:03] [Server thread/INFO]: Identifying ItemStackHolder annotations
-[15:10:03] [Server thread/INFO]: Found 0 ItemStackHolder annotations
-[15:10:03] [Server thread/INFO]: Configured a dormant chunk cache size of 0
-[15:10:03] [Server thread/INFO]: Applying holder lookups
-[15:10:03] [Server thread/INFO]: Holder lookups applied
-[15:10:03] [Server thread/INFO]: Injecting itemstacks
-[15:10:03] [Server thread/INFO]: Itemstack injection complete
-[15:10:03] [Server thread/INFO]: Loading properties
-[15:10:03] [Server thread/INFO]: Default game type: SURVIVAL
-[15:10:04] [Server thread/INFO]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
-[15:10:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:10:04] [Server thread/INFO]: Using 2 threads for Netty based IO
-[15:10:04] [Server thread/INFO]: Generating keypair
-[15:10:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:10:05] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[15:10:05] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use
-[15:10:05] [Server thread/WARN]: Perhaps a server is already running on that port?
-[15:10:05] [Server thread/WARN]: Can't revert to frozen GameData state without freezing first.
-[15:10:05] [Server thread/INFO]: Applying holder lookups
-[15:10:05] [Server thread/INFO]: Holder lookups applied
-[15:10:05] [Server thread/INFO]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+[16:56:52] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:56:52] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:56:52] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:56:52] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[16:56:53] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[16:56:53] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[16:56:53] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:56:53] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:56:53] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:56:53] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:56:53] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:56:55] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:56:55] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:56:56] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:56:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:56:56] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:56:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:56:57] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:57:03] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:57:03] [Server thread/INFO]: Attempting early MinecraftForge initialization
+[16:57:03] [Server thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[16:57:03] [Server thread/INFO]: Replaced 183 ore recipies
+[16:57:04] [Server thread/INFO]: Completed early MinecraftForge initialization
+[16:57:04] [Server thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:57:04] [Server thread/INFO]: Searching /home/minecraft/mods for mods
+[16:57:06] [Server thread/INFO]: Forge Mod Loader has identified 9 mods to load
+[16:57:06] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
+[16:57:06] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
+[16:57:07] [Server thread/INFO]: Processing ObjectHolder annotations
+[16:57:07] [Server thread/INFO]: Found 341 ObjectHolder annotations
+[16:57:07] [Server thread/INFO]: Identifying ItemStackHolder annotations
+[16:57:07] [Server thread/INFO]: Found 0 ItemStackHolder annotations
+[16:57:07] [Server thread/INFO]: Configured a dormant chunk cache size of 0
+[16:57:08] [Server thread/INFO]: Applying holder lookups
+[16:57:08] [Server thread/INFO]: Holder lookups applied
+[16:57:08] [Server thread/INFO]: Injecting itemstacks
+[16:57:08] [Server thread/INFO]: Itemstack injection complete
+[16:57:08] [Server thread/INFO]: Loading properties
+[16:57:08] [Server thread/INFO]: Default game type: SURVIVAL
+[16:57:09] [Server thread/INFO]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[16:57:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:57:09] [Server thread/INFO]: Using 2 threads for Netty based IO
+[16:57:09] [Server thread/INFO]: Generating keypair
+[16:57:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:57:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:57:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:57:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:57:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:57:10] [Server thread/INFO]: Injecting itemstacks
+[16:57:10] [Server thread/INFO]: Itemstack injection complete
+[16:57:10] [Server thread/INFO]: Forge Mod Loader has successfully loaded 9 mods
+[16:57:10] [Server thread/INFO]: Preparing level "world"
+[16:57:10] [Server thread/INFO]: Registered command debug with permission node vanilla.command.debug
+[16:57:10] [Server thread/INFO]: Registered command spreadplayers with permission node vanilla.command.spreadplayers
+[16:57:10] [Server thread/INFO]: Registered command playsound with permission node vanilla.command.playsound
+[16:57:10] [Server thread/INFO]: Registered command scoreboard with permission node vanilla.command.scoreboard
+[16:57:10] [Server thread/INFO]: Registered command achievement with permission node vanilla.command.achievement
+[16:57:10] [Server thread/INFO]: Registered command summon with permission node vanilla.command.summon
+[16:57:10] [Server thread/INFO]: Registered command setblock with permission node vanilla.command.setblock
+[16:57:10] [Server thread/INFO]: Registered command testforblock with permission node vanilla.command.testforblock
+[16:57:10] [Server thread/INFO]: Registered command tellraw with permission node vanilla.command.tellraw
+[16:57:10] [Server thread/INFO]: Registered command netstat with permission node vanilla.command.netstat
+[16:57:11] [Server thread/INFO]: Mapping loaded 11 packages, 7856 classes, 26736 fields, 53884 methods, flags 1ffa
+[16:57:12] [Server thread/INFO]: Loaded inheritance map of 895 classes
+[16:57:13] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.0;3342-78f975b9
+[16:57:13] [Server thread/INFO]: [Vault] Loading Vault v1.4.1-b436
+[16:57:13] [Server thread/INFO]: [Essentials] Loading Essentials vPre2.14.1.3
+[16:57:13] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[16:57:13] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[16:57:13] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[16:57:13] [Server thread/INFO]: [GroupManager] Loading GroupManager v3.3
+[16:57:13] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vPre2.14.1.3
+[16:57:13] [Server thread/INFO]: [Scavenger] Loading Scavenger v1.6-54
+[16:57:13] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v3.7.0
+[16:57:14] [Server thread/WARN]: [ProtocolLib] [MinecraftReflection] Cannot find standard Minecraft library location. Assuming MCPC.
+[16:57:15] [Server thread/INFO]: Adding biome mapping 40 Twilight Lake at BiomeBase[40]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 41 Twilight Forest at BiomeBase[41]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 42 Dense Twilight Forest at BiomeBase[42]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 43 Twilight Highlands at BiomeBase[43]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 44 Mushroom Forest at BiomeBase[44]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 45 Twilight Swamp at BiomeBase[45]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 46 Twilight Stream at BiomeBase[46]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 47 Snowy Forest at BiomeBase[47]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 48 Twilight Glacier at BiomeBase[48]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 49 Twilight Clearing at BiomeBase[49]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 50 Oak Savanna at BiomeBase[50]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 51 Firefly Forest at BiomeBase[51]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 52 Deep Mushroom Forest at BiomeBase[52]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 53 Dark Forest Center at BiomeBase[53]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 54 Highlands Center at BiomeBase[54]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 55 Dark Forest at BiomeBase[55]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 56 Enchanted Forest at BiomeBase[56]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 57 Fire Swamp at BiomeBase[57]
+[16:57:15] [Server thread/INFO]: Adding biome mapping 58 Thornlands at BiomeBase[58]
+[16:57:15] [Server thread/INFO]: [Vault] Enabling Vault v1.4.1-b436
+[16:57:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:57:15] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[16:57:15] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:57:15] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[16:57:16] [Server thread/INFO]: [Vault] Enabled Version 1.4.1-b436
+[16:57:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v3.7.0
+[16:57:16] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:57:16] [Server thread/INFO]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[16:57:16] [Server thread/INFO]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[16:57:16] [Server thread/INFO]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[16:57:16] [Server thread/INFO]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[16:57:16] [Server thread/INFO]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[16:57:16] [Server thread/INFO]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[16:57:16] [Server thread/INFO]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[16:57:16] [Server thread/INFO]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[16:57:16] [Server thread/INFO]: Preparing start region for level 0
+[16:57:17] [Server thread/INFO]: Preparing spawn area: 7%
+[16:57:18] [Server thread/INFO]: Preparing spawn area: 14%
+[16:57:19] [Server thread/INFO]: Preparing spawn area: 24%
+[16:57:20] [Server thread/INFO]: Preparing spawn area: 33%
+[16:57:22] [Server thread/INFO]: Preparing spawn area: 40%
+[16:57:23] [Server thread/INFO]: Preparing spawn area: 49%
+[16:57:24] [Server thread/INFO]: Preparing spawn area: 61%
+[16:57:25] [Server thread/INFO]: Preparing spawn area: 73%
+[16:57:26] [Server thread/INFO]: Preparing spawn area: 85%
+[16:57:27] [Server thread/INFO]: Preparing spawn area: 99%
+[16:57:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.0;3342-78f975b9
+[16:57:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:57:29] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[16:57:29] [Server thread/INFO]: [Essentials] Enabling Essentials vPre2.14.1.3
+[16:57:29] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[16:57:29] [Server thread/INFO]: 1710-dev-4-B210 (MC: 1.7.10)
+[16:57:29] [Server thread/INFO]: 1.7.10-R0.1-SNAPSHOT
+[16:57:29] [Server thread/INFO]: Using locale en_US
+[16:57:29] [Server thread/INFO]: Using locale en_US
+[16:57:30] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[16:57:30] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[16:57:30] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[16:57:30] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[16:57:30] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[16:57:30] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[16:57:30] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.3
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;33;1mChecking Your version...[m
+[16:57:30] [Server thread/INFO]: [0;34;1m===============================[m
+[16:57:30] [Server thread/INFO]: [0;32;1m[m
+[16:57:30] [Server thread/INFO]: [0;32;1m GroupManager+ is now enable![m
+[16:57:30] [Server thread/INFO]: [0;32;1m [m
+[16:57:30] [Server thread/INFO]: [0;33;1m Thank you for using GroupManager+ :)[m
+[16:57:30] [Server thread/INFO]: [0;33;1m GroupManager+ is create by HappyAreaBean![m
+[16:57:30] [Server thread/INFO]: [0;36;1m Current version: [0;32;1mv3.3[m
+[16:57:30] [Server thread/INFO]: [0;32;1m [m
+[16:57:30] [Server thread/INFO]: [0;34;1m===============================[m
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mWorld Found: world[m
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mSuperperms support enabled.[m
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is set for every 10 minutes![m
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBackups will be retained for 24 hours![m
+[16:57:30] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mGroupManager+ v3.3 is now enabled![m
+[16:57:30] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[16:57:30] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[16:57:30] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[16:57:30] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[16:57:30] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vPre2.14.1.3
+[16:57:30] [Server thread/INFO]: [Scavenger] Enabling Scavenger v1.6-54
+[16:57:30] [Server thread/INFO]: [Scavenger] Configuration loaded.
+[16:57:30] [Server thread/INFO]: [Scavenger] Economy disabled. Item recovery will be free.
+[16:57:30] [Server thread/INFO]: [Scavenger] Loaded ignore list. (Count = 0)
+[16:57:30] [Server thread/INFO]: [Scavenger] Offline-mode is set to false, no Authenticator Hook
+[16:57:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:57:31] [Server thread/INFO]: Done (20.621s)! For help, type "help" or "?"
+[16:57:31] [Server thread/INFO]: Registered command forge with permission node net.minecraftforge.server.command.ForgeCommand
+[16:57:31] [Server thread/INFO]: Registered command tfprogress with permission node twilightforest.CommandTFProgress
+[16:57:31] [Server thread/INFO]: Registered command veinminer with permission node portablejim.veinminer.server.MinerCommand
+[16:57:31] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBukkit Permissions Updated![m
+[16:57:31] [Craft Scheduler Thread - 2/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;31;1mYour version (v3.3) is outdated download the lastest version:[m
+[16:57:31] [Craft Scheduler Thread - 2/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;32;1mhttps://www.spigotmc.org/resources/40615/[m
+[16:57:32] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates:
+[16:57:32] [Craft Scheduler Thread - 5/WARN]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.4.1
+[16:57:32] [Craft Scheduler Thread - 5/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[16:57:40] [User Authenticator #1/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[16:57:40] [Netty IO #0/INFO]: Client protocol version 2
+[16:57:40] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[16:57:40] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[16:57:40] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:57:40] [Server thread/INFO]: Atlas[/5.18.247.142:1506] logged in with entity id 1737 at ([world] -124.5, 70.0, 253.5)
+[16:57:59] [Server thread/INFO]: Atlas has just earned the achievement [Taking Inventory]
+[16:58:00] [Server thread/INFO]: Atlas issued server command: /time set 30000
+[16:58:06] [Server thread/INFO]: CONSOLE: De-opped Atlas[m
+[17:03:25] [Server thread/INFO]: Atlas issued server command: /hat
+[17:04:24] [Server thread/INFO]: Atlas has just earned the achievement [Getting Wood]
+[17:04:41] [Server thread/INFO]: Atlas issued server command: /time set 30000
+[17:07:13] [Server thread/INFO]: Atlas has just earned the achievement [Benchmarking]
+[17:07:25] [Server thread/INFO]: Atlas has just earned the achievement [Time to Mine!]
+[17:07:25] [Server thread/INFO]: Atlas has just earned the achievement [Getting an Upgrade]
+[17:07:30] [pool-13-thread-1/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1m Data files refreshed.[m
+[17:07:40] [Server thread/INFO]: CONSOLE: Opped Atlas[m
+[17:07:50] [Server thread/INFO]: CONSOLE: De-opped Atlas[m
+[17:11:56] [Server thread/INFO]: Atlas has just earned the achievement [Hot Topic]
+[17:12:39] [Server thread/INFO]: Atlas has just earned the achievement [Acquire Hardware]
+[17:13:32] [Server thread/INFO]: CONSOLE: Opped Atlas[m
+[17:13:34] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[17:13:36] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[17:13:36] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[17:13:44] [Server thread/INFO]: Atlas issued server command: /give Atlas 364 64 0
+[17:13:54] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[17:14:03] [Server thread/INFO]: Atlas issued server command: /time set 48000
+[17:14:04] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[17:14:05] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[17:14:11] [Server thread/INFO]: CONSOLE: De-opped Atlas[m
+[17:16:12] [Server thread/INFO]: Atlas has just earned the achievement [DIAMONDS!]
+[17:17:10] [Server thread/INFO]: Atlas tried to swim in lava
+[17:17:18] [Server thread/INFO]: Atlas issued server command: /back
+[17:17:35] [User Authenticator #2/INFO]: UUID of player 123 is 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+[17:17:36] [Netty IO #0/INFO]: Client protocol version 2
+[17:17:36] [Netty IO #0/INFO]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[17:17:36] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[17:17:38] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:17:38] [Server thread/INFO]: 123[/39.75.186.173:51453] logged in with entity id 4554 at ([world] -123.5, 69.0, 250.5)
+[17:19:02] [Server thread/INFO]: 123 has just earned the achievement [Taking Inventory]
+[17:19:09] [Server thread/INFO]: 123 has just earned the achievement [Getting Wood]
+[17:19:30] [Server thread/INFO]: 123 has just earned the achievement [Benchmarking]
+[17:22:01] [Server thread/INFO]: CONSOLE: Opped Atlas[m
+[17:22:04] [Server thread/INFO]: Atlas issued server command: /toggledownfall
+[17:22:04] [Server thread/INFO]: Atlas: Toggling downfall off for world 'world'[m
+[17:22:06] [Server thread/INFO]: Atlas issued server command: /time set 72000
+[17:22:12] [Server thread/INFO]: CONSOLE: De-opped Atlas[m
+[17:24:25] [Server thread/INFO]: Atlas lost connection: Disconnected
+[17:24:25] [Server thread/INFO]: Atlas left the game.
+[17:24:28] [User Authenticator #3/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[17:24:28] [Netty IO #0/INFO]: Client protocol version 2
+[17:24:28] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[17:24:28] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[17:24:28] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:24:28] [Server thread/INFO]: Atlas[/5.18.247.142:1865] logged in with entity id 6093 at ([world] -64.89214334586075, 12.0, 194.5505293544849)
+[17:25:56] [Server thread/INFO]: Atlas tried to swim in lava
+[17:27:30] [pool-13-thread-1/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1m Data files refreshed.[m
+[17:28:43] [Server thread/INFO]: Atlas lost connection: Disconnected
+[17:28:43] [Server thread/INFO]: Atlas left the game.
+[17:29:06] [User Authenticator #4/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[17:29:06] [Netty IO #0/INFO]: Client protocol version 2
+[17:29:06] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[17:29:06] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[17:29:06] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:29:06] [Server thread/INFO]: Atlas[/5.18.247.142:1066] logged in with entity id 7100 at ([world] -170.50804528838705, 70.0, 204.80145912792506)
+[17:29:52] [Server thread/INFO]: Atlas lost connection: Disconnected
+[17:29:52] [Server thread/INFO]: Atlas left the game.
+[17:31:26] [User Authenticator #5/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[17:31:26] [Netty IO #0/INFO]: Client protocol version 2
+[17:31:26] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[17:31:26] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[17:31:26] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:31:26] [Server thread/INFO]: Atlas[/5.18.247.142:1190] logged in with entity id 7360 at ([world] -162.91497933634767, 71.0, 206.80847766759217)
+[17:35:47] [Server thread/INFO]: Atlas fell from a high place
+[17:37:13] [Server thread/INFO]: 123 issued server command: //hat
+[17:37:17] [Server thread/INFO]: 123 issued server command: /hat
+[17:37:53] [Server thread/INFO]: Atlas issued server command: /sethome
+[17:40:05] [Server thread/INFO]: Atlas has just earned the achievement [Time to Strike!]
+[17:41:31] [Server thread/INFO]: Atlas has just earned the achievement [Monster Hunter]
+[17:43:07] [Server thread/INFO]: Atlas lost connection: Timed out
+[17:43:07] [Server thread/INFO]: Atlas left the game.
+[17:46:28] [User Authenticator #6/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[17:46:28] [Netty IO #0/INFO]: Client protocol version 2
+[17:46:28] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[17:46:28] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[17:46:29] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:46:29] [Server thread/INFO]: Atlas[/5.18.247.142:2035] logged in with entity id 8774 at ([world] -193.09386499531487, 63.0, 185.3763261531172)
+[17:48:18] [Server thread/INFO]: 123 lost connection: Timed out
+[17:48:18] [Server thread/INFO]: 123 left the game.
+[17:58:28] [Server thread/INFO]: Atlas issued server command: /give Atlas 41 64 0
+[17:58:28] [Server thread/INFO]: §cAtlas §4was denied access to command.
+[18:02:13] [Server thread/INFO]: Atlas hit the ground too hard
+[18:02:38] [User Authenticator #7/INFO]: UUID of player 123 is 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+[18:02:40] [Netty IO #0/INFO]: Client protocol version 2
+[18:02:40] [Netty IO #0/INFO]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[18:02:40] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[18:02:41] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:02:41] [Server thread/INFO]: 123[/39.75.186.173:50449] logged in with entity id 10646 at ([world] -202.82047100661845, 63.0, 198.01524659185245)
+[18:11:51] [Server thread/INFO]: Atlas has just earned the achievement [Cow Tipper]
+[18:15:49] [Server thread/INFO]: CONSOLE: Opped Atlas[m
+[18:16:01] [Server thread/INFO]: Atlas issued server command: /tp 1685456 80 78648
+[18:16:10] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[18:16:18] [Server thread/INFO]: Atlas issued server command: /time set 144000
+[18:16:28] [Server thread/INFO]: Atlas issued server command: /tp 1685456 80 786484
+[18:16:41] [Server thread/INFO]: Atlas issued server command: /tp 1685456 80 -786484
+[18:17:40] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[18:17:41] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[18:18:06] [Server thread/INFO]: Atlas issued server command: /tp 1685456 30 -1786484
+[18:19:53] [Server thread/INFO]: Atlas burned to death
+[18:19:56] [Server thread/INFO]: Atlas issued server command: /back
+[18:22:09] [Server thread/INFO]: Atlas tried to swim in lava
+[18:24:49] [Server thread/INFO]: Atlas issued server command: /give Atlas 49 64 0
+[18:26:10] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:26:38] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:26:47] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:26:56] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:27:06] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:27:25] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:28:02] [Server thread/INFO]: Atlas issued server command: //set 10
+[18:28:19] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:28:27] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:28:35] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:28:43] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:29:12] [Server thread/INFO]: Atlas issued server command: /give Atlas 95 64 0
+[18:29:39] [Server thread/INFO]: Atlas issued server command: /time set 168000
+[18:29:48] [Server thread/INFO]: Atlas issued server command: /give Atlas 20 64 0
+[18:30:17] [Server thread/INFO]: Atlas issued server command: //set 20
+[18:30:32] [Server thread/INFO]: Atlas issued server command: /give Atlas 20 64 0
+[18:30:40] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[18:31:07] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:31:32] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:31:59] [Server thread/INFO]: CONSOLE: De-opped Atlas[m
+[18:32:10] [Server thread/INFO]: CONSOLE: Opped Atlas[m
+[18:32:16] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[18:32:16] [Server thread/INFO]: §c123 §4was denied access to command.
+[18:32:24] [Server thread/INFO]: CONSOLE: Opped 123[m
+[18:32:52] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:33:19] [Server thread/INFO]: 123 issued server command: //set 20
+[18:33:51] [Server thread/INFO]: 123 issued server command: //set 20
+[18:34:07] [Server thread/INFO]: Atlas issued server command: //set 20
+[18:34:16] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:34:22] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:34:27] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:34:33] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:34:36] [Server thread/INFO]: 123 issued server command: //set 20
+[18:35:03] [Server thread/INFO]: Atlas issued server command: //set 49
+[18:35:38] [Server thread/INFO]: Atlas issued server command: //set 10
+[18:36:01] [Server thread/INFO]: 123 issued server command: //set 20
+[18:36:51] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:37:10] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[18:37:10] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:37:26] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[18:37:28] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[18:37:30] [Server thread/INFO]: Atlas issued server command: /fly
+[18:37:56] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:37:57] [Server thread/INFO]: 123 issued server command: //set 5
+[18:38:04] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:38:08] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:38:34] [Server thread/INFO]: 123 issued server command: //set 5:1
+[18:38:57] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:39:06] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:39:07] [Server thread/INFO]: 123 issued server command: //set 20
+[18:39:14] [Server thread/INFO]: Atlas issued server command: //set 0
+[18:39:50] [Server thread/INFO]: Atlas issued server command: //set 2
+[18:40:22] [Server thread/INFO]: Atlas issued server command: //set 2
+[18:40:31] [Server thread/INFO]: Atlas suffocated in a wall
+[18:40:39] [Server thread/INFO]: Atlas issued server command: /fly
+[18:40:41] [Server thread/INFO]: 123 issued server command: //set 0
+[18:40:43] [Server thread/INFO]: Atlas issued server command: /fly
+[18:40:47] [Server thread/INFO]: Atlas issued server command: /time set 192000
+[18:41:03] [Server thread/INFO]: 123 issued server command: //set 5:1
+[18:41:32] [Server thread/INFO]: Atlas issued server command: /give Atlas 107 64 0
+[18:41:50] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[18:42:00] [Server thread/INFO]: 123 issued server command: //set 0
+[18:42:05] [Server thread/INFO]: Atlas issued server command: /give Atlas 20 64 0
+[18:42:16] [Server thread/INFO]: 123 issued server command: //set 20
+[18:42:39] [Server thread/INFO]: Atlas issued server command: /give Atlas 85 64 0
+[18:43:02] [Server thread/INFO]: Atlas issued server command: //set 85
+[18:43:15] [Server thread/INFO]: Atlas issued server command: //set 85
+[18:43:27] [Server thread/INFO]: Atlas issued server command: //set 85
+[18:43:34] [Server thread/INFO]: Atlas issued server command: //set 85
+[18:43:59] [Server thread/INFO]: Atlas issued server command: /give Atlas 107 64 0
+[18:44:10] [Server thread/INFO]: Atlas issued server command: /give Atlas 85 64 0
+[18:45:39] [Server thread/INFO]: Atlas issued server command: /give Atlas 383 64 96
+[18:45:59] [Server thread/INFO]: Atlas issued server command: /give Atlas 383 64 92
+[18:46:40] [Server thread/INFO]: Atlas issued server command: /give Atlas 85 64 0
+[18:47:02] [Server thread/INFO]: Atlas issued server command: /give Atlas 107 64 0
+[18:47:08] [Server thread/INFO]: Atlas issued server command: /give Atlas 107 64 0
+[18:48:48] [Server thread/INFO]: 123 issued server command: //set 20
+[18:49:05] [Server thread/INFO]: Atlas issued server command: /give Atlas 383 64 93
+[18:49:35] [Server thread/INFO]: Atlas issued server command: /give Atlas 85 64 0
+[18:50:26] [Server thread/INFO]: Atlas issued server command: /give Atlas 383 64 120
+[18:52:05] [Server thread/INFO]: Atlas issued server command: /give Atlas 85 64 0
+[18:52:35] [Server thread/INFO]: 123 issued server command: /gamemode ADVENTURE 123
+[18:53:11] [Server thread/INFO]: 123 issued server command: /gamemode SURVIVAL 123
+[18:53:15] [Server thread/INFO]: Atlas issued server command: /time set 222000
+[18:53:20] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[18:54:56] [Server thread/INFO]: Atlas issued server command: /time set 258000
+[18:55:03] [Server thread/INFO]: Atlas issued server command: /time set 246000
+[18:55:16] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[18:55:16] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[18:55:32] [Server thread/INFO]: Atlas issued server command: /time set 282000
+[18:55:48] [Server thread/INFO]: Atlas issued server command: /fly
+[18:59:01] [Server thread/INFO]: Atlas issued server command: /give Atlas 110 64 0
+[19:00:05] [Server thread/INFO]: Atlas issued server command: //set 49
+[19:01:16] [Server thread/INFO]: Atlas issued server command: /give Atlas 49 64 0
+[19:01:45] [Server thread/INFO]: Atlas issued server command: //set 49
+[19:02:02] [Server thread/INFO]: Atlas issued server command: //set 49
+[19:02:23] [Server thread/INFO]: Atlas issued server command: //set 0
+[19:02:35] [Server thread/INFO]: Atlas issued server command: //set 0
+[19:02:45] [Server thread/INFO]: Atlas issued server command: //set 10
+[19:03:19] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:03:45] [Server thread/INFO]: Atlas issued server command: //set 49
+[19:03:51] [Server thread/INFO]: Atlas issued server command: //set 49
+[19:04:05] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:11] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:17] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:22] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:38] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:44] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:04:51] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:05:00] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:05:07] [Server thread/INFO]: Atlas issued server command: //set 20
+[19:06:47] [Server thread/INFO]: Atlas issued server command: /give Atlas 293 1 0
+[19:08:38] [Server thread/INFO]: Atlas issued server command: //set 60
+[19:08:49] [Server thread/INFO]: 123 issued server command: //set 5:1
+[19:13:45] [Server thread/INFO]: Atlas issued server command: /give Atlas 295 64 0
+[19:15:21] [Server thread/INFO]: Atlas issued server command: /give Atlas 295 64 0
+[19:15:54] [Server thread/INFO]: Atlas issued server command: /give Atlas 295 64 0
+[19:16:53] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[19:17:43] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[19:20:10] [Server thread/INFO]: Atlas issued server command: //set 0
+[19:21:58] [Server thread/INFO]: Atlas issued server command: /give Atlas 38 64 2
+[19:22:17] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[19:22:17] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[19:22:50] [Server thread/INFO]: 123 issued server command: /gamemode ADVENTURE 123
+[19:23:05] [Server thread/INFO]: Atlas has just earned the achievement [Diamonds to you!]
+[19:23:09] [Server thread/INFO]: Atlas has just earned the achievement [Twilight Portal]
+[19:23:09] [Server thread/INFO]: 123 has just earned the achievement [Twilight Portal]
+[19:23:09] [Server thread/INFO]: 123 has just earned the achievement [Twilight Arrival]
+[19:23:09] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[19:23:34] [Server thread/INFO]: [TwilightForest] Found ideal portal spot
+[19:23:38] [Server thread/INFO]: Atlas lost connection: Disconnected
+[19:23:38] [Server thread/INFO]: Atlas left the game.
+[19:23:38] [Server thread/INFO]: 123 lost connection: Disconnected
+[19:23:38] [Server thread/INFO]: 123 left the game.
+[19:23:38] [User Authenticator #9/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[19:23:38] [User Authenticator #8/INFO]: UUID of player 123 is 75f41576-c9ae-3be1-9e5a-f6091a7fa867
+[19:23:39] [Netty IO #1/INFO]: Client protocol version 2
+[19:23:39] [Netty IO #1/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[19:23:39] [Netty IO #1/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[19:23:39] [Server thread/INFO]: [Server thread] Server side modded connection established
+[19:23:39] [Server thread/INFO]: Atlas[/5.18.247.142:1369] logged in with entity id 26825 at ([world] -172.94754636224167, 63.0, 170.41761462833273)
+[19:23:40] [Netty IO #0/INFO]: Client protocol version 2
+[19:23:40] [Netty IO #0/INFO]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[19:23:40] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[19:23:41] [Server thread/INFO]: [Server thread] Server side modded connection established
+[19:23:41] [Server thread/INFO]: 123[/39.75.186.173:51382] logged in with entity id 26824 at ([DIM7] -174.0, 33.5, 170.0)
+[19:23:44] [Server thread/INFO]: Atlas has just earned the achievement [Twilight Arrival]
+[19:23:44] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[19:23:56] [Server thread/INFO]: Atlas issued server command: /fly
+[19:23:57] [Server thread/INFO]: 123 issued server command: /gamemode SURVIVAL 123
+[19:24:03] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[19:24:14] [Server thread/INFO]: Atlas issued server command: /give Atlas 279 1 0
+[19:25:05] [Server thread/INFO]: 123 has just earned the achievement [Twilight Hunter]
+[19:26:08] [Server thread/INFO]: 123 issued server command: //set 18:1
+[19:26:42] [Server thread/INFO]: 123 issued server command: //set 18:1
+[19:27:34] [Server thread/INFO]: Atlas has just earned the achievement [Twilight Hunter]
+[19:27:34] [Server thread/INFO]: Atlas has just earned the achievement [Naga Hunter]
+[19:27:35] [Server thread/INFO]: Atlas has just earned the achievement [Shimmering Scale]
+[19:28:00] [Server thread/WARN]: Atlas moved wrongly!
+[19:29:13] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:30:16] [Server thread/INFO]: Atlas was shot by Skeleton
+[19:30:23] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[19:30:33] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:31:20] [Server thread/INFO]: 123 issued server command: /tp 123 24 93 243
+[19:31:20] [Server thread/INFO]: 123 issued server command: /tppos 24 93 243
+[19:31:23] [Server thread/WARN]: Atlas moved wrongly!
+[19:31:49] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:32:05] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[19:32:07] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[19:32:09] [Server thread/INFO]: Atlas was killed by Twilight Lich using magic
+[19:32:14] [Server thread/INFO]: Atlas issued server command: /back
+[19:32:19] [Server thread/INFO]: 123 issued server command: /gamemode ADVENTURE 123
+[19:32:20] [Server thread/INFO]: Atlas was killed by Twilight Lich using magic
+[19:32:23] [Server thread/INFO]: Atlas issued server command: /back
+[19:32:27] [Server thread/INFO]: Atlas issued server command: /fly
+[19:32:29] [Server thread/INFO]: Atlas issued server command: /fly
+[19:32:49] [Server thread/INFO]: Atlas burned to death
+[19:32:52] [Server thread/INFO]: 123 tried to swim in lava
+[19:32:55] [Server thread/INFO]: Atlas issued server command: /fly
+[19:32:58] [Server thread/INFO]: Atlas issued server command: /fly
+[19:33:01] [Server thread/INFO]: Atlas issued server command: /back
+[19:33:10] [Server thread/INFO]: 123 issued server command: /gamemode SURVIVAL 123
+[19:33:12] [Server thread/INFO]: Atlas was killed by Twilight Lich using magic
+[19:33:12] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[19:33:23] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[19:33:39] [Server thread/INFO]: 123 issued server command: /tp 123 9 84 234
+[19:33:39] [Server thread/INFO]: 123 issued server command: /tppos 9 84 234
+[19:34:25] [Server thread/INFO]: 123 issued server command: //set 46
+[19:34:34] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[19:35:17] [Server thread/INFO]: Atlas issued server command: /give Atlas 176 64 0
+[19:35:22] [Server thread/INFO]: Atlas issued server command: /give Atlas 176 64 0
+[19:35:26] [Server thread/INFO]: Atlas issued server command: /give Atlas 176 64 0
+[19:35:30] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[19:36:51] [Server thread/INFO]: 123 issued server command: //set 24
+[19:37:07] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:37:13] [Server thread/INFO]: Atlas issued server command: /fly
+[19:37:14] [Server thread/INFO]: Atlas issued server command: /fly
+[19:37:15] [Server thread/INFO]: 123 issued server command: //set 12
+[19:37:45] [Server thread/INFO]: 123 issued server command: //set 12
+[19:39:10] [Server thread/INFO]: 123 issued server command: //set 24
+[19:39:40] [Server thread/INFO]: 123 issued server command: //set 0
+[19:40:32] [Server thread/INFO]: 123 issued server command: //set 0
+[19:41:28] [Server thread/INFO]: Atlas lost connection: Disconnected
+[19:41:28] [Server thread/INFO]: Atlas left the game.
+[19:41:28] [Server thread/INFO]: 123 issued server command: //set 12
+[19:41:35] [User Authenticator #10/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[19:41:35] [Netty IO #0/INFO]: Client protocol version 2
+[19:41:35] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[19:41:35] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[19:41:35] [Server thread/INFO]: [Server thread] Server side modded connection established
+[19:41:35] [Server thread/INFO]: Atlas[/5.18.247.142:1451] logged in with entity id 125470 at ([DIM7] -47.99257060558487, 79.51689047810218, 274.7436780020976)
+[19:42:11] [Server thread/INFO]: 123 issued server command: //set 12
+[19:42:31] [Server thread/INFO]: Atlas issued server command: /gamemode ADVENTURE Atlas
+[19:42:32] [Server thread/INFO]: Atlas issued server command: /gamemode SURVIVAL Atlas
+[19:42:36] [Server thread/INFO]: Atlas issued server command: /fly
+[19:42:47] [Server thread/INFO]: 123 issued server command: //set 0
+[19:43:48] [Server thread/INFO]: 123 issued server command: //set 0
+[19:44:23] [Server thread/INFO]: Atlas blew up
+[19:44:26] [Server thread/INFO]: Atlas issued server command: /back
+[19:44:32] [Server thread/INFO]: Atlas issued server command: /fl
+[19:44:34] [Server thread/INFO]: Atlas issued server command: /fly
+[19:44:37] [Server thread/INFO]: Atlas issued server command: /fly
+[19:44:48] [Server thread/INFO]: 123 issued server command: //set 12
+[19:45:05] [Server thread/INFO]: Atlas has just earned the achievement [Lich Hunter]
+[19:45:13] [Server thread/INFO]: Atlas has just earned the achievement [Touched by Undeath]
+[19:45:31] [Server thread/INFO]: 123 issued server command: /tp 123 11 101 15
+[19:45:31] [Server thread/INFO]: 123 issued server command: /tppos 11 101 15
+[19:46:16] [Server thread/INFO]: 123 issued server command: /gamemode ADVENTURE 123
+[19:46:23] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:46:29] [Server thread/INFO]: 123 was killed by Twilight Lich using magic
+[19:46:34] [Server thread/INFO]: Atlas was killed by Twilight Lich using magic
+[19:46:38] [Server thread/INFO]: Atlas issued server command: /back
+[19:46:47] [Server thread/INFO]: 123 issued server command: /back
+[19:47:26] [Server thread/INFO]: Atlas was killed by Twilight Lich using magic
+[19:47:30] [Server thread/INFO]: Atlas issued server command: /back
+[19:47:51] [Server thread/INFO]: 123 was killed by Twilight Lich using magic
+[19:48:19] [Server thread/INFO]: 123 issued server command: /back
+[19:48:26] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[19:48:28] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[19:48:31] [Server thread/INFO]: 123 issued server command: /gamemode SURVIVAL 123
+[19:48:33] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[19:48:34] [Server thread/INFO]: Atlas tried to swim in lava
+[19:48:41] [Server thread/INFO]: Atlas issued server command: /fly
+[19:48:43] [Server thread/INFO]: Atlas issued server command: /fly
+[19:48:45] [Server thread/INFO]: Atlas issued server command: /back
+[19:48:50] [Server thread/INFO]: 123 issued server command: //set 12
+[19:49:04] [Server thread/INFO]: Atlas was burnt to a crisp whilst fighting Silverfish
+[19:49:09] [Server thread/INFO]: Atlas issued server command: /fly
+[19:49:11] [Server thread/INFO]: Atlas issued server command: /fly
+[19:49:13] [Server thread/INFO]: Atlas issued server command: /back
+[19:49:17] [Server thread/INFO]: 123 issued server command: //ser 12
+[19:49:24] [Server thread/INFO]: 123 issued server command: //set 12
+[19:49:32] [Server thread/INFO]: 123 issued server command: //set 0
+[19:49:57] [Server thread/INFO]: 123 issued server command: //set 12
+[19:50:20] [Server thread/INFO]: 123 issued server command: //set 0
+[19:50:25] [Server thread/INFO]: Atlas burned to death
+[19:50:53] [Server thread/INFO]: 123 issued server command: //set 0
+[19:51:15] [Server thread/INFO]: Atlas issued server command: /fly
+[19:51:17] [Server thread/INFO]: Atlas issued server command: /fly
+[19:51:23] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:51:24] [Server thread/INFO]: 123 issued server command: //set 0
+[19:51:49] [Server thread/INFO]: 123 issued server command: //set 0
+[19:52:10] [Server thread/INFO]: 123 issued server command: /tp 123 -280 35 280
+[19:52:10] [Server thread/INFO]: 123 issued server command: /tppos -280 35 280
+[19:52:23] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:53:30] [Server thread/INFO]: Atlas issued server command: /give Atlas 259 1 0
+[19:53:57] [Server thread/INFO]: 123 issued server command: //set 12
+[19:54:28] [Server thread/INFO]: 123 issued server command: //set 12
+[19:54:47] [Server thread/INFO]: 123 issued server command: /tp 123 -371 31 333
+[19:54:47] [Server thread/INFO]: 123 issued server command: /tppos -371 31 333
+[19:55:17] [Server thread/INFO]: 123 issued server command: /tp 123 -248 32 14
+[19:55:17] [Server thread/INFO]: 123 issued server command: /tppos -248 32 14
+[19:55:54] [Server thread/INFO]: Atlas burned to death
+[19:56:00] [Server thread/INFO]: 123 issued server command: //set 12
+[19:56:25] [Server thread/INFO]: 123 issued server command: //set 0
+[19:57:10] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:57:57] [Server thread/INFO]: Atlas issued server command: /tp atlas 123
+[19:58:09] [Server thread/INFO]: 123 issued server command: /gamemode ADVENTURE 123
+[19:58:24] [Server thread/INFO]: 123 has just earned the achievement [Naga Hunter]
+[19:58:24] [Server thread/INFO]: 123 has just earned the achievement [Shimmering Scale]
+[19:58:34] [Server thread/INFO]: Atlas issued server command: /home
+[19:58:49] [Server thread/INFO]: 123 issued server command: /gamemode SURVIVAL 123
+[19:58:50] [Server thread/INFO]: 123 issued server command: /gamemode CREATIVE 123
+[19:58:58] [Server thread/INFO]: 123 issued server command: /tp 123 -155 44 138
+[19:58:58] [Server thread/INFO]: 123 issued server command: /tppos -155 44 138
+[19:59:01] [Server thread/INFO]: Atlas issued server command: /give Atlas 346 1 0
+[19:59:38] [Server thread/INFO]: [TwilightForest] Found ideal portal spot
+[19:59:41] [Server thread/INFO]: Unloading dimension 7
+[19:59:51] [Server thread/INFO]: Atlas issued server command: /time set 342000
+[20:05:33] [Server thread/INFO]: Atlas issued server command: /time set 366000
+[20:11:10] [Server thread/INFO]: Atlas lost connection: Internal Exception: java.io.IOException: Connection reset by peer
+[20:11:10] [Server thread/INFO]: Atlas left the game.
+[20:12:39] [User Authenticator #11/INFO]: UUID of player Atlas is 1d4a9c61-6828-3517-9704-a0518eccaaa5
+[20:12:39] [Netty IO #0/INFO]: Client protocol version 2
+[20:12:39] [Netty IO #0/INFO]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[20:12:39] [Netty IO #0/INFO]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[20:12:39] [Server thread/INFO]: [Server thread] Server side modded connection established
+[20:12:39] [Server thread/INFO]: Atlas[/5.18.247.142:1715] logged in with entity id 158803 at ([world] -153.9866677536888, 64.0, 146.69398074299485)
+[20:12:51] [Server thread/INFO]: Atlas issued server command: /time set 390000
+[20:14:46] [Server thread/INFO]: Atlas issued server command: /fly
+[20:15:57] [Server thread/INFO]: Atlas issued server command: /gamemode CREATIVE Atlas
+[20:18:42] [Server thread/INFO]: Atlas issued server command: /time set 414000
+[20:18:47] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[20:18:47] [Server thread/INFO]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[20:19:09] [Server thread/INFO]: Unloading dimension 7
+[20:19:38] [Server thread/INFO]: 123 issued server command: //set 49
+[20:20:09] [Server thread/INFO]: 123 issued server command: //set 12
+[20:21:05] [Server thread/INFO]: 123 issued server command: //set 49
+[20:24:45] [Server thread/INFO]: Atlas issued server command: /time set 438000
+[20:29:50] [Server thread/INFO]: Atlas issued server command: /time set 462000
+[20:34:03] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[20:34:14] [Server thread/INFO]: Atlas issued server command: /give Atlas 10 64 0
+[20:35:39] [Server thread/INFO]: Atlas issued server command: /give Atlas 323 16 0
+[20:36:21] [Server thread/INFO]: Atlas issued server command: /time set 486000
+[20:37:53] [Server thread/INFO]: 123 lost connection: Disconnected
+[20:37:53] [Server thread/INFO]: 123 left the game.
+[20:39:42] [Server thread/INFO]: Atlas issued server command: /give Atlas 362 64 0
+[20:41:18] [Server thread/INFO]: Atlas issued server command: /give Atlas 351 64 15
+[20:41:26] [Server thread/INFO]: Atlas issued server command: /time set 510000
+[20:44:22] [Server thread/INFO]: Atlas issued server command: /give Atlas 293 1 0
+[20:45:08] [Server thread/INFO]: Atlas issued server command: /give Atlas 2 64 0
+[20:46:04] [Server thread/INFO]: Atlas issued server command: /give Atlas 39 64 0
+[20:46:05] [Server thread/INFO]: Atlas issued server command: /give Atlas 40 64 0
+[20:46:32] [Server thread/INFO]: Atlas issued server command: /time set 528000
+[20:46:50] [Server thread/INFO]: Player touched the portal block.  Sending the player to dimension 7
+[20:46:50] [Server thread/INFO]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@60051733)
+[20:46:57] [Server thread/INFO]: Atlas lost connection: Internal Exception: java.io.IOException: Connection reset by peer
+[20:46:57] [Server thread/INFO]: Atlas left the game.
+[20:47:09] [Server thread/INFO]: Unloading dimension 7
+[20:47:15] [Server thread/INFO]: CONSOLE issued server command: /top 
+[20:47:15] [Server thread/INFO]: [0;31;1mError:[0;31;22m [0;31;22mOnly in-game players can use [0;31;1mtop[0;31;22m.[m
+[20:47:18] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[20:47:18] [Server thread/INFO]: Stopping server
+[20:47:18] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v3.7.0
+[20:47:18] [Server thread/INFO]: [Scavenger] Disabling Scavenger v1.6-54
+[20:47:18] [Server thread/INFO]: [Scavenger] Saved ignore list. (Count = 0)
+[20:47:18] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild vPre2.14.1.3
+[20:47:18] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.3
+[20:47:18] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[20:47:18] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[20:47:18] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat un-hooked.
+[20:47:18] [Server thread/INFO]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is disabled![m
+[20:47:18] [Server thread/INFO]: GroupManager version 3.3 is disabled!
+[20:47:18] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[20:47:18] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[20:47:18] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[20:47:18] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[20:47:18] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[20:47:18] [Server thread/INFO]: [Essentials] Disabling Essentials vPre2.14.1.3
+[20:47:18] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[20:47:18] [Server thread/INFO]: [Vault] Disabling Vault v1.4.1-b436
+[20:47:18] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.0;3342-78f975b9
+[20:47:18] [Server thread/INFO]: Saving players
+[20:47:18] [Server thread/INFO]: Saving worlds
+[20:47:18] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:47:18] [Server thread/INFO]: Saving chunks for level 'DIM1'/The End
+[20:47:18] [Server thread/INFO]: Saving chunks for level 'DIM-1'/Nether
+[20:47:18] [Server thread/INFO]: Unloading dimension 0
+[20:47:18] [Server thread/INFO]: Unloading dimension -1
+[20:47:18] [Server thread/INFO]: Unloading dimension 1
+[20:47:18] [Server thread/INFO]: Applying holder lookups
+[20:47:18] [Server thread/INFO]: Holder lookups applied

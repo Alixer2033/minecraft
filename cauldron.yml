@@ -116,3 +116,6 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
+  twilightforest:
+    keep-world-loaded: false
+    enabled: true

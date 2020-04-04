@@ -11,6 +11,10 @@
         "minecraft:wooden_axe"
       ],
       "blocklist": [
+        "TwilightForest:tile.TFLeaves",
+        "TwilightForest:tile.TFLog",
+        "TwilightForest:tile.TFMagicLeaves",
+        "TwilightForest:tile.TFMagicLog",
         "minecraft:fence",
         "minecraft:leaves",
         "minecraft:leaves2",
@@ -70,6 +74,8 @@
         "minecraft:shears"
       ],
       "blocklist": [
+        "TwilightForest:tile.TFLeaves",
+        "TwilightForest:tile.TFMagicLeaves",
         "minecraft:deadbush",
         "minecraft:leaves",
         "minecraft:leaves2",

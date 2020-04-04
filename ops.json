@@ -20,6 +20,11 @@
     "level": 4
   },
   {
+    "uuid": "75f41576-c9ae-3be1-9e5a-f6091a7fa867",
+    "name": "123",
+    "level": 4
+  },
+  {
     "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
     "name": "scavenger.scavenge",
     "level": 4
@@ -32,6 +37,11 @@
   {
     "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
     "name": "essentials.123456.hat",
+    "level": 4
+  },
+  {
+    "uuid": "1d4a9c61-6828-3517-9704-a0518eccaaa5",
+    "name": "Atlas",
     "level": 4
   },
   {
