@@ -1,6 +1,31 @@
 [
   {
     "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "scavenger.free",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "essentials.123456.hat",
+    "level": 4
+  },
+  {
+    "uuid": "1d4a9c61-6828-3517-9704-a0518eccaaa5",
+    "name": "Atlas",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
+    "name": "essentials.build.hat",
+    "level": 4
+  },
+  {
+    "uuid": "8f46e910-d646-398c-b4dd-d2abdc3f59f7",
+    "name": "DANTE",
+    "level": 4
+  },
+  {
+    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
     "name": "scavenger.level",
     "level": 4
   },
@@ -30,23 +55,8 @@
     "level": 4
   },
   {
-    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
-    "name": "scavenger.free",
-    "level": 4
-  },
-  {
-    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
-    "name": "essentials.123456.hat",
-    "level": 4
-  },
-  {
-    "uuid": "1d4a9c61-6828-3517-9704-a0518eccaaa5",
-    "name": "Atlas",
-    "level": 4
-  },
-  {
-    "uuid": "c1fc3ace-e6b2-37ed-a575-03e0d777d7f1",
-    "name": "essentials.build.hat",
+    "uuid": "896c2adc-b9ae-3a4b-823b-963b19c0be23",
+    "name": "xxx",
     "level": 4
   },
   {

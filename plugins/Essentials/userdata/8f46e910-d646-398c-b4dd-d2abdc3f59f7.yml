@@ -1,0 +1,28 @@
+lastAccountName: DANTE
+timestamps:
+  login: 1586008799439
+  logout: 1586022040785
+  lastteleport: 1586021918575
+ipAddress: 148.153.82.27
+lastlocation:
+  world: world
+  x: -49.08570487273656
+  y: 97.51667280526414
+  z: 530.2285869328251
+  yaw: -352.76074
+  pitch: 33.948322
+logoutlocation:
+  world: world
+  x: -80.52443602297944
+  y: 78.16530723927602
+  z: 556.610377349449
+  yaw: -81.7594
+  pitch: 18.073658
+homes:
+  home:
+    world: world
+    x: -45.31497920903847
+    y: 84.0
+    z: 565.4838497145921
+    yaw: -286.66797
+    pitch: 19.446766
