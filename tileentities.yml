@@ -22,10 +22,10 @@ debug:
 config-version: 1
 world-settings:
   default:
-    net-minecraft-tileentity-TileEntityChest:
+    net-minecraft-tileentity-TileEntityMobSpawner:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityMobSpawner:
+    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
@@ -34,22 +34,25 @@ world-settings:
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityCommandBlock:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityDaylightDetector:
-      tick-no-players: false
-      tick-interval: 1
     net-minecraft-tileentity-TileEntityBrewingStand:
       tick-no-players: false
       tick-interval: 1
     twilightforest-tileentity-TileEntityTFFirefly:
       tick-no-players: false
       tick-interval: 1
+    net-minecraft-tileentity-TileEntityBeacon:
+      tick-no-players: false
+      tick-interval: 1
     twilightforest-tileentity-TileEntityTFCicada:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityBeacon:
+    net-minecraft-tileentity-TileEntityEnderChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityCommandBlock:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityDaylightDetector:
       tick-no-players: false
       tick-interval: 1
     twilightforest-tileentity-TileEntityTFNagaSpawner:

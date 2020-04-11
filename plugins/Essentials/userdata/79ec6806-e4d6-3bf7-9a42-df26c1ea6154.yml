@@ -1,0 +1,21 @@
+lastAccountName: LOKE
+timestamps:
+  login: 1586108125931
+  logout: 1586108333548
+  lastteleport: 1586090806201
+ipAddress: 118.193.31.254
+lastlocation:
+  world: world
+  x: -59.5
+  y: 92.0
+  z: 556.5
+  yaw: 42.47087
+  pitch: 15.767967
+logoutlocation:
+  world: world
+  x: -23.30000001192098
+  y: 100.84581911281904
+  z: 671.5158053116015
+  yaw: -174.88533
+  pitch: -39.933533
+afk: false

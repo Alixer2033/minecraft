@@ -1,92 +1,93 @@
-[12:02:16] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
-[12:02:17] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[12:02:17] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
-[12:02:17] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:02:17] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[12:02:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:02:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:02:17] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:02:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:02:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:02:20] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:02:20] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[12:02:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[12:02:21] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[12:02:21] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[12:02:27] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
-[12:02:27] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
-[12:02:28] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
-[12:02:28] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
-[12:02:28] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[12:02:28] [Server thread/INFO] [FML/]: Searching /home/minecraft/mods for mods
-[12:02:30] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 9 mods to load
-[12:02:30] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
-[12:02:30] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
-[12:02:31] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
-[12:02:31] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
-[12:02:31] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[12:02:31] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[12:02:31] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[12:02:32] [Server thread/INFO] [FML/]: Applying holder lookups
-[12:02:32] [Server thread/INFO] [FML/]: Holder lookups applied
-[12:02:32] [Server thread/INFO] [FML/]: Injecting itemstacks
-[12:02:32] [Server thread/INFO] [FML/]: Itemstack injection complete
-[12:02:33] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
-[12:02:33] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
-[12:02:33] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
-[12:02:34] [Server thread/INFO] [FML/]: Injecting itemstacks
-[12:02:34] [Server thread/INFO] [FML/]: Itemstack injection complete
-[12:02:34] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 9 mods
-[12:02:35] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
-[12:02:35] [Server thread/INFO] [FML/]: Applying holder lookups
-[12:02:35] [Server thread/INFO] [FML/]: Holder lookups applied
-[12:02:35] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7856 classes, 26736 fields, 53884 methods, flags 1ffa
-[12:02:36] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
-[12:02:37] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v6.0;3342-78f975b9
-[12:02:37] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.4.1-b436
-[12:02:37] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials vPre2.14.1.3
-[12:02:37] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
-[12:02:37] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
-[12:02:37] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Loading GroupManager v3.3
-[12:02:37] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vPre2.14.1.3
-[12:02:37] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Loading Scavenger v1.6-54
-[12:02:37] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
-[12:02:37] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Loading ProtocolLib v3.7.0
-[12:02:38] [Server thread/WARN] [Minecraft/]: [ProtocolLib] [MinecraftReflection] Cannot find standard Minecraft library location. Assuming MCPC.
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 40 Twilight Lake at BiomeBase[40]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 41 Twilight Forest at BiomeBase[41]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 42 Dense Twilight Forest at BiomeBase[42]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 43 Twilight Highlands at BiomeBase[43]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 44 Mushroom Forest at BiomeBase[44]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 45 Twilight Swamp at BiomeBase[45]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 46 Twilight Stream at BiomeBase[46]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 47 Snowy Forest at BiomeBase[47]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 48 Twilight Glacier at BiomeBase[48]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 49 Twilight Clearing at BiomeBase[49]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 50 Oak Savanna at BiomeBase[50]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 51 Firefly Forest at BiomeBase[51]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 52 Deep Mushroom Forest at BiomeBase[52]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 53 Dark Forest Center at BiomeBase[53]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 54 Highlands Center at BiomeBase[54]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 55 Dark Forest at BiomeBase[55]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 56 Enchanted Forest at BiomeBase[56]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 57 Fire Swamp at BiomeBase[57]
-[12:02:39] [Server thread/INFO] [/]: Adding biome mapping 58 Thornlands at BiomeBase[58]
-[12:02:39] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.4.1-b436
-[12:02:39] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:02:40] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] GroupManager found: Waiting
-[12:02:40] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:02:40] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Chat] GroupManager found: Waiting
-[12:02:40] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.4.1-b436
-[12:02:40] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Enabling ProtocolLib v3.7.0
-[12:02:40] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Started structure compiler thread.
-[12:02:40] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@3640064)
-[12:02:40] [Server thread/INFO] [FML/]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@3640064)
-[12:02:40] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@3640064)
-[12:02:40] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@3640064)
-[12:02:42] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v6.0;3342-78f975b9
-[12:02:44] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
-[12:02:44] [Server thread/WARN] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] 
+[12:14:49] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[12:14:49] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_242, running on Linux:amd64:4.9.0-12-amd64, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[12:14:49] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[12:14:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:49] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:14:49] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:49] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:14:49] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:51] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:51] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:52] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:14:52] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:14:53] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[12:14:53] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[12:14:54] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:15:00] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[12:15:00] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[12:15:00] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[12:15:00] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[12:15:00] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:15:00] [Server thread/INFO] [FML/]: Searching /home/minecraft/mods for mods
+[12:15:03] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 9 mods to load
+[12:15:03] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at CLIENT
+[12:15:03] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, UraniumPlus, TwilightForest, VeinMiner, VeinMinerModSupport, yarr_cutemobmodels] at SERVER
+[12:15:04] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[12:15:04] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[12:15:04] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[12:15:04] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[12:15:04] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[12:15:05] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:15:05] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:15:05] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:15:05] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:15:06] [Server thread/INFO] [Minecraft/]: This server is running Uranium version 1710-dev-4-B210 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[12:15:06] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[12:15:06] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
+[12:15:07] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:15:07] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:15:07] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 9 mods
+[12:15:08] [Server thread/INFO] [/]: Mapping loaded 11 packages, 7856 classes, 26736 fields, 53884 methods, flags 1ffa
+[12:15:09] [Server thread/INFO] [/]: Loaded inheritance map of 895 classes
+[12:15:10] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v6.0;3342-78f975b9
+[12:15:10] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.4.1-b436
+[12:15:10] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials vPre2.14.1.3
+[12:15:10] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Loading EssentialsSpawn vPre2.14.1.3
+[12:15:10] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Loading EssentialsChat vPre2.14.1.3
+[12:15:10] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Loading GroupManager v3.3
+[12:15:10] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vPre2.14.1.3
+[12:15:10] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Loading Scavenger v1.6-54
+[12:15:10] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Loading EssentialsProtect vPre2.14.1.3
+[12:15:10] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Loading ProtocolLib v3.7.0
+[12:15:11] [Server thread/WARN] [Minecraft/]: [ProtocolLib] [MinecraftReflection] Cannot find standard Minecraft library location. Assuming MCPC.
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 40 Twilight Lake at BiomeBase[40]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 41 Twilight Forest at BiomeBase[41]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 42 Dense Twilight Forest at BiomeBase[42]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 43 Twilight Highlands at BiomeBase[43]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 44 Mushroom Forest at BiomeBase[44]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 45 Twilight Swamp at BiomeBase[45]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 46 Twilight Stream at BiomeBase[46]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 47 Snowy Forest at BiomeBase[47]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 48 Twilight Glacier at BiomeBase[48]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 49 Twilight Clearing at BiomeBase[49]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 50 Oak Savanna at BiomeBase[50]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 51 Firefly Forest at BiomeBase[51]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 52 Deep Mushroom Forest at BiomeBase[52]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 53 Dark Forest Center at BiomeBase[53]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 54 Highlands Center at BiomeBase[54]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 55 Dark Forest at BiomeBase[55]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 56 Enchanted Forest at BiomeBase[56]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 57 Fire Swamp at BiomeBase[57]
+[12:15:12] [Server thread/INFO] [/]: Adding biome mapping 58 Thornlands at BiomeBase[58]
+[12:15:12] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.4.1-b436
+[12:15:12] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
+[12:15:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] GroupManager found: Waiting
+[12:15:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:15:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Chat] GroupManager found: Waiting
+[12:15:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.4.1-b436
+[12:15:13] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Enabling ProtocolLib v3.7.0
+[12:15:13] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Started structure compiler thread.
+[12:15:14] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5f421c41)
+[12:15:14] [Server thread/INFO] [FML/]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@5f421c41)
+[12:15:14] [Server thread/INFO] [FML/]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[12:15:14] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@5f421c41)
+[12:15:14] [Server thread/INFO] [FML/]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[12:15:14] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@5f421c41)
+[12:15:14] [Server thread/INFO] [FML/]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[12:15:14] [Server thread/INFO] [FML/]: [TwilightForest] Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[12:15:25] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v6.0;3342-78f975b9
+[12:15:27] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Using the Bukkit Permissions API.
+[12:15:28] [Server thread/WARN] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] 
 **********************************************
 ** This WorldEdit version does not fully support your version of Bukkit.
 **
@@ -97,114 +98,288 @@
 ** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
 **********************************************
 
-[12:02:44] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials vPre2.14.1.3
-[12:02:44] [Server thread/INFO] [Essentials/]: Bukkit version format changed. Version not checked.
-[12:02:44] [Server thread/INFO] [Essentials/]: 1710-dev-4-B210 (MC: 1.7.10)
-[12:02:44] [Server thread/INFO] [Essentials/]: 1.7.10-R0.1-SNAPSHOT
-[12:02:44] [Server thread/INFO] [Essentials/]: Using locale en_US
-[12:02:44] [Server thread/INFO] [Essentials/]: Using locale en_US
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy hooked.
-[12:02:45] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
-[12:02:45] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
-[12:02:45] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
-[12:02:45] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
-[12:02:45] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Enabling GroupManager v3.3
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;33;1mChecking Your version...[m
-[12:02:45] [Server thread/INFO] [/]: [0;34;1m===============================[m
-[12:02:45] [Server thread/INFO] [/]: [0;32;1m[m
-[12:02:45] [Server thread/INFO] [/]: [0;32;1m GroupManager+ is now enable![m
-[12:02:45] [Server thread/INFO] [/]: [0;32;1m [m
-[12:02:45] [Server thread/INFO] [/]: [0;33;1m Thank you for using GroupManager+ :)[m
-[12:02:45] [Server thread/INFO] [/]: [0;33;1m GroupManager+ is create by HappyAreaBean![m
-[12:02:45] [Server thread/INFO] [/]: [0;36;1m Current version: [0;32;1mv3.3[m
-[12:02:45] [Server thread/INFO] [/]: [0;32;1m [m
-[12:02:45] [Server thread/INFO] [/]: [0;34;1m===============================[m
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mWorld Found: world[m
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mSuperperms support enabled.[m
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is set for every 10 minutes![m
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBackups will be retained for 24 hours![m
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mGroupManager+ v3.3 is now enabled![m
-[12:02:45] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: GroupManager detected! Using GroupManager for permissions.
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Vault][Permission] GroupManager hooked.
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Vault][Chat] GroupManager - Chat hooked.
-[12:02:45] [Server thread/INFO] [Essentials/]: Essentials: Using GroupManager based permissions.
-[12:02:45] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vPre2.14.1.3
-[12:02:45] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Enabling Scavenger v1.6-54
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Scavenger] Configuration loaded.
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Scavenger] Economy disabled. Item recovery will be free.
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Scavenger] Loaded ignore list. (Count = 0)
-[12:02:45] [Server thread/INFO] [Minecraft/]: [Scavenger] Offline-mode is set to false, no Authenticator Hook
-[12:02:45] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
-[12:02:45] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
-[12:02:45] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBukkit Permissions Updated![m
-[12:02:46] [Craft Scheduler Thread - 2/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;31;1mYour version (v3.3) is outdated download the lastest version:[m
-[12:02:46] [Craft Scheduler Thread - 2/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;32;1mhttps://www.spigotmc.org/resources/40615/[m
-[12:02:47] [Craft Scheduler Thread - 8/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates:
-[12:02:47] [Craft Scheduler Thread - 8/WARN] [net.milkbowl.vault.Vault/]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.4.1
-[12:02:47] [Craft Scheduler Thread - 8/WARN] [net.milkbowl.vault.Vault/]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
-[12:02:58] [Server thread/INFO] [/]: CONSOLE: De-opped dante[m
-[12:04:32] [Netty IO #0/INFO] [FML/]: Client protocol version 2
-[12:04:32] [Netty IO #0/INFO] [FML/]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:04:32] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:04:32] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[12:04:57] [Server thread/INFO] [FML/]: Unloading dimension 7
-[12:05:03] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
-[12:06:39] [Server thread/INFO] [Essentials/]: §cAtlas §4was denied access to command.
-[12:06:48] [Server thread/INFO] [/]: CONSOLE: Opped Atlas[m
-[12:06:57] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
-[12:07:03] [Server thread/INFO] [/]: Player touched the portal block.  Sending the player to dimension 7
-[12:07:03] [Server thread/INFO] [FML/]: Loading dimension 7 (DIM7) (net.minecraft.server.dedicated.DedicatedServer@3640064)
-[12:07:44] [Netty IO #1/INFO] [FML/]: Client protocol version 2
-[12:07:44] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:07:44] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:07:45] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[12:07:45] [pool-11-thread-1/INFO] [Essentials/]: Creating empty config: /home/minecraft/plugins/Essentials/userdata/33389b45-49bc-3103-8565-e0e570b943c1.yml
-[12:07:49] [Netty IO #0/INFO] [FML/]: Client protocol version 2
-[12:07:49] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:07:49] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:07:56] [Netty IO #0/INFO] [FML/]: Client protocol version 2
-[12:07:56] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:07:56] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:08:14] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[12:08:14] [pool-11-thread-1/INFO] [Essentials/]: Creating empty config: /home/minecraft/plugins/Essentials/userdata/8f46e910-d646-398c-b4dd-d2abdc3f59f7.yml
-[12:08:15] [Server thread/INFO] [/]: Player touched the portal block.  Sending the player to dimension 7
-[12:08:27] [Server thread/INFO] [/]: Player touched the portal block.  Sending the player to dimension 7
-[12:08:57] [Server thread/INFO] [FML/]: Unloading dimension 7
-[12:10:04] [Netty IO #0/INFO] [FML/]: Client protocol version 2
-[12:10:04] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:10:04] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:10:04] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[12:10:04] [pool-11-thread-1/INFO] [Essentials/]: Creating empty config: /home/minecraft/plugins/Essentials/userdata/896c2adc-b9ae-3a4b-823b-963b19c0be23.yml
-[12:10:08] [Netty IO #1/INFO] [FML/]: Client protocol version 2
-[12:10:08] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
-[12:10:08] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
-[12:10:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
-[12:11:36] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
-[12:12:07] [Server thread/INFO] [Essentials/]: §cAtlas §4was denied access to command.
-[12:12:45] [pool-13-thread-1/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1m Data files refreshed.[m
-[12:12:57] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
-[12:14:21] [Server thread/INFO] [/]: CONSOLE: Stopping the server..[m
-[12:14:21] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Disabling ProtocolLib v3.7.0
-[12:14:21] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
-[12:14:21] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Disabling Scavenger v1.6-54
-[12:14:21] [Server thread/INFO] [Minecraft/]: [Scavenger] Saved ignore list. (Count = 0)
-[12:14:21] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild vPre2.14.1.3
-[12:14:21] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Disabling GroupManager v3.3
-[12:14:21] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: GroupManager detected! Using GroupManager for permissions.
-[12:14:21] [Server thread/INFO] [Minecraft/]: [Vault][Permission] GroupManager un-hooked.
-[12:14:21] [Server thread/INFO] [Minecraft/]: [Vault][Chat] GroupManager - Chat un-hooked.
-[12:14:21] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is disabled![m
-[12:14:21] [Server thread/INFO] [/]: GroupManager version 3.3 is disabled!
-[12:14:21] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
-[12:14:21] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
-[12:14:21] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
-[12:14:21] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
-[12:14:21] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Disabling Essentials vPre2.14.1.3
-[12:14:21] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy unhooked.
-[12:14:21] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Disabling Vault v1.4.1-b436
-[12:14:21] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v6.0;3342-78f975b9
-[12:14:21] [Server thread/INFO] [FML/]: Unloading dimension 0
-[12:14:21] [Server thread/INFO] [FML/]: Unloading dimension -1
-[12:14:21] [Server thread/INFO] [FML/]: Unloading dimension 1
-[12:14:21] [Server thread/INFO] [FML/]: Applying holder lookups
-[12:14:21] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:15:28] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials vPre2.14.1.3
+[12:15:28] [Server thread/INFO] [Essentials/]: Bukkit version format changed. Version not checked.
+[12:15:28] [Server thread/INFO] [Essentials/]: 1710-dev-4-B210 (MC: 1.7.10)
+[12:15:28] [Server thread/INFO] [Essentials/]: 1.7.10-R0.1-SNAPSHOT
+[12:15:28] [Server thread/INFO] [Essentials/]: Using locale en_US
+[12:15:28] [Server thread/INFO] [Essentials/]: Using locale en_US
+[12:15:28] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy hooked.
+[12:15:28] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
+[12:15:28] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
+[12:15:28] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Enabling EssentialsSpawn vPre2.14.1.3
+[12:15:28] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Enabling EssentialsChat vPre2.14.1.3
+[12:15:28] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Enabling GroupManager v3.3
+[12:15:28] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;33;1mChecking Your version...[m
+[12:15:28] [Server thread/INFO] [/]: [0;34;1m===============================[m
+[12:15:28] [Server thread/INFO] [/]: [0;32;1m[m
+[12:15:28] [Server thread/INFO] [/]: [0;32;1m GroupManager+ is now enable![m
+[12:15:28] [Server thread/INFO] [/]: [0;32;1m [m
+[12:15:28] [Server thread/INFO] [/]: [0;33;1m Thank you for using GroupManager+ :)[m
+[12:15:28] [Server thread/INFO] [/]: [0;33;1m GroupManager+ is create by HappyAreaBean![m
+[12:15:28] [Server thread/INFO] [/]: [0;36;1m Current version: [0;32;1mv3.3[m
+[12:15:28] [Server thread/INFO] [/]: [0;32;1m [m
+[12:15:28] [Server thread/INFO] [/]: [0;34;1m===============================[m
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mWorld Found: world[m
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mSuperperms support enabled.[m
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is set for every 10 minutes![m
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBackups will be retained for 24 hours![m
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mGroupManager+ v3.3 is now enabled![m
+[12:15:29] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Vault][Permission] GroupManager hooked.
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Vault][Chat] GroupManager - Chat hooked.
+[12:15:29] [Server thread/INFO] [Essentials/]: Essentials: Using GroupManager based permissions.
+[12:15:29] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vPre2.14.1.3
+[12:15:29] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Enabling Scavenger v1.6-54
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Scavenger] Configuration loaded.
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Scavenger] Economy disabled. Item recovery will be free.
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Scavenger] Loaded ignore list. (Count = 0)
+[12:15:29] [Server thread/INFO] [Minecraft/]: [Scavenger] Offline-mode is set to false, no Authenticator Hook
+[12:15:29] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Enabling EssentialsProtect vPre2.14.1.3
+[12:15:29] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[12:15:29] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mBukkit Permissions Updated![m
+[12:15:30] [Craft Scheduler Thread - 2/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;31;1mYour version (v3.3) is outdated download the lastest version:[m
+[12:15:30] [Craft Scheduler Thread - 2/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;32;1mhttps://www.spigotmc.org/resources/40615/[m
+[12:15:31] [Craft Scheduler Thread - 4/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates:
+[12:15:31] [Craft Scheduler Thread - 4/WARN] [net.milkbowl.vault.Vault/]: [Vault] Stable Version: 1.7.2 is out! You are still running version: 1.4.1
+[12:15:31] [Craft Scheduler Thread - 4/WARN] [net.milkbowl.vault.Vault/]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[12:15:37] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[12:15:37] [Netty IO #1/INFO] [FML/]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[12:15:37] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[12:15:37] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:15:44] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[12:15:44] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[12:15:44] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[12:15:45] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:16:33] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[12:16:33] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[12:16:33] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[12:16:33] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:16:50] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[12:16:50] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[12:16:50] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[12:16:50] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:17:38] [Server thread/INFO] [/]: CONSOLE: Opped atlas[m
+[12:22:41] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[12:22:41] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[12:25:18] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:25:24] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:25:29] [pool-14-thread-1/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1m Data files refreshed.[m
+[12:25:34] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:25:56] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[12:26:06] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:26:11] [Server thread/INFO] [/]: CONSOLE: Opped atlas[m
+[12:27:04] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:27:29] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:29:38] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:30:47] [Server thread/INFO] [Essentials/]: §cDANTE §4was denied access to command.
+[12:46:20] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[12:46:20] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[12:46:20] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[12:46:21] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[12:51:17] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:17] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:18] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:18] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:22] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:24] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:26] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:27] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:36] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:44] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:48] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:50] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:51:55] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[12:51:57] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[12:52:41] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:52:45] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:52:49] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:52:51] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:52:51] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:20] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:21] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:23] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:29] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:31] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:31] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:32] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:32] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:57:33] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:58:01] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:58:01] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:58:01] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[12:58:03] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:02:04] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:02:04] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:02:04] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:02:06] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:02:51] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:02:51] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:02:51] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:02:52] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:03:11] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:03:11] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:03:11] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:03:12] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:03:41] [Netty IO #0/INFO] [/]: [m<[0;32;22mxxx[m> hat[m
+[13:04:08] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:04:08] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:04:08] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:04:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:04:15] [Netty IO #0/INFO] [/]: [m<[0;32;22mxxx[m> hat[m
+[13:05:33] [Netty IO #0/INFO] [/]: [m<[0;32;22mxxx[m> hat[m
+[13:05:41] [Netty IO #1/INFO] [/]: [m<[0;32;22mnigger King[m> sb[m
+[13:05:47] [Netty IO #1/INFO] [/]: [m<[0;32;22mnigger King[m> zhen sa bi[m
+[13:05:56] [Netty IO #1/INFO] [/]: [m<[0;32;22mnigger King[m> shuo /[m
+[13:07:57] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:07:57] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:07:57] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:08:00] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:09:40] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:09:40] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:09:40] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:09:46] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:10:22] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:10:22] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:10:22] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:10:24] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:10:40] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:10:40] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:10:40] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:10:41] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:11:36] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:11:36] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:11:36] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:11:36] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:12:48] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:12:48] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:12:48] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:12:58] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:13:00] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:15:02] [Netty IO #0/INFO] [/]: [m<[0;32;22mDANTE[m> tpaccept[m
+[13:17:05] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[13:17:12] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[13:17:16] [Server thread/INFO] [/]: CONSOLE: Opped atlas[m
+[13:17:42] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
+[13:17:47] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[13:22:03] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.[m
+[13:22:07] [Server thread/INFO] [/]: CONSOLE: Opped Atlas[m
+[13:23:43] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[13:23:52] [Server thread/INFO] [/]: CONSOLE: De-opped Atlas[m
+[13:25:31] [Server thread/INFO] [/]: CONSOLE: Opped Atlas[m
+[13:28:13] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:14] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:18] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:19] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:46] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:47] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:28:50] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:48:11] [Server thread/INFO] [/]: CONSOLE: De-opped atlas[m
+[13:52:05] [Server thread/INFO] [Essentials/]: §cAtlas §4was denied access to command.
+[13:52:46] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:52:46] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:52:46] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:52:50] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:53:27] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:53:27] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:53:27] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:53:28] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:54:22] [Server thread/INFO] [/]: CONSOLE: Opped Atlas[m
+[13:55:24] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:55:24] [Server thread/INFO] [Essentials/]: §cxxx §4was denied access to command.
+[13:56:20] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:56:20] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:56:20] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:56:23] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:57:05] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:57:05] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:57:05] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:57:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:57:40] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[13:57:40] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:57:40] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:57:43] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:58:15] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:58:15] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:58:15] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:58:44] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:58:44] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:58:44] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:58:45] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:59:05] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:59:05] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:59:05] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:59:06] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[13:59:53] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[13:59:53] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[13:59:53] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[13:59:59] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:00:20] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[14:00:20] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[14:00:20] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[14:00:21] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:00:58] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[14:00:58] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[14:00:58] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[14:02:27] [Netty IO #0/INFO] [/]: [m<[0;32;22mDANTE[m> 邓妈[m
+[14:02:45] [Netty IO #0/INFO] [/]: [m<[0;32;22mDANTE[m> 邓妈[m
+[14:03:16] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[14:03:16] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[14:03:16] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[14:03:16] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:04:14] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:10:42] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:10:58] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:11:27] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:11:32] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:19:54] [Netty IO #1/INFO] [FML/]: Client protocol version 2
+[14:19:54] [Netty IO #1/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[14:19:54] [Netty IO #1/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[14:19:54] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:39:50] [Server thread/INFO] [/]: CONSOLE: Opped DANTE[m
+[14:40:02] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:40:09] [Server thread/INFO] [/]: [0;31;1mUsage: /op <player>[m
+[14:40:12] [Server thread/INFO] [Essentials/]: §cnigger King §4was denied access to command.
+[14:40:16] [Server thread/INFO] [/]: [0;31;1mUsage: /op <player>[m
+[14:40:20] [Server thread/INFO] [/]: [0;31;1mUsage: /op <player>[m
+[14:40:22] [Netty IO #0/INFO] [/]: [m<[0;32;22mxxx[m> w[m
+[14:40:30] [Server thread/INFO] [/]: [0;31;1mUsage: /op <player>[m
+[14:40:38] [Server thread/INFO] [/]: [0;31;1mUsage: /op <player>[m
+[14:40:46] [Server thread/INFO] [/]: CONSOLE: Opped xxx[m
+[14:49:41] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[14:49:41] [Netty IO #0/INFO] [FML/]: Client attempting to join with 37 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[14:49:41] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[14:49:43] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[14:50:51] [Server thread/INFO] [/]: CONSOLE: Opped 123[m
+[14:55:29] [pool-14-thread-1/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1m Data files refreshed.[m
+[15:40:29] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[15:40:29] [Netty IO #0/INFO] [FML/]: Client attempting to join with 38 mods : DynamicLights_dropItems@1.0.8,VeinMinerModSupport@0.36.0_1.7.10-28a7f13,NotEnoughItems@1.0.5.120,DynamicLights_entityClasses@1.0.1,Waila@1.5.10,yarr_cutemobmodels@1.0.9,neiintegration@1.1.1,DynamicLights_onFire@1.0.4,FastCraft@1.25,NEIAddons@1.12.14.40,Forge@10.13.4.1614,NEIAddons|Botany@1.12.14.40,DynamicLights_otherPlayers@1.0.8,VeinMiner@0.36.0_1.7.10-28a7f13,DynamicLights_mobEquipment@1.0.8,DynamicLights@1.3.8,DynamicLights_floodLights@1.0.2,CodeChickenCore@1.0.7.47,MouseTweaks@2.4.4,NEIAddons|Developer@1.12.14.40,DynamicLights_flameArrows@1.0.0,mod_RadarBro@v1.9.9.9.9.9,bspkrsCore@6.15,mcp@9.05,craftguide@1.7.1.0,DynamicLights_creepers@1.0.4,InputFix@1.7.10-v5,FML@7.10.99.99,NEIAddons|Forestry@1.12.14.40,inventorytweaks@1.59-dev-152-cf6e263,TwilightForest@2.3.7,Baubles@1.0.1.10,NEIAddons|CraftingTables@1.12.14.40,NEIAddons|ExNihilo@1.12.14.40,Scenter@1.7.10-3.2.1,WailaHarvestability@1.1.6,NEIAddons|AppEng@1.12.14.40,DynamicLights_thePlayer@1.1.4
+[15:40:29] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine, UraniumPlus] at CLIENT
+[15:40:29] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[16:06:48] [Server thread/INFO] [FML/]: onItemUse par1ItemStack = 1xtile.waterlily@0
+[18:06:20] [Server thread/INFO] [/]: CONSOLE: Stopping the server..[m
+[18:06:20] [Server thread/INFO] [com.comphenix.protocol.ProtocolLibrary/]: [ProtocolLib] Disabling ProtocolLib v3.7.0
+[18:06:20] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Disabling EssentialsProtect vPre2.14.1.3
+[18:06:20] [Server thread/INFO] [com.cnaude.scavenger.Scavenger/]: [Scavenger] Disabling Scavenger v1.6-54
+[18:06:20] [Server thread/INFO] [Minecraft/]: [Scavenger] Saved ignore list. (Count = 0)
+[18:06:20] [Server thread/INFO] [com.earth2me.essentials.antibuild.EssentialsAntiBuild/]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild vPre2.14.1.3
+[18:06:20] [Server thread/INFO] [org.anjocaido.groupmanager.GroupManager/]: [GroupManager] Disabling GroupManager v3.3
+[18:06:20] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[18:06:20] [Server thread/INFO] [Minecraft/]: [Vault][Permission] GroupManager un-hooked.
+[18:06:20] [Server thread/INFO] [Minecraft/]: [Vault][Chat] GroupManager - Chat un-hooked.
+[18:06:20] [Server thread/INFO] [/]: [0;30;1m[[0;31;1m[21mGM[0;37;1m[21m+[0;30;1m] [0;30;1m[[0;32;1mINFO[0;30;1m] [0;33;1mScheduled Data Saving is disabled![m
+[18:06:20] [Server thread/INFO] [/]: GroupManager version 3.3 is disabled!
+[18:06:20] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Disabling EssentialsChat vPre2.14.1.3
+[18:06:20] [Server thread/INFO] [Essentials/]: Essentials: Using config file enhanced permissions.
+[18:06:20] [Server thread/INFO] [Essentials/]: Permissions listed in as player-commands will be given to all users.
+[18:06:20] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Disabling EssentialsSpawn vPre2.14.1.3
+[18:06:20] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Disabling Essentials vPre2.14.1.3
+[18:06:20] [Server thread/INFO] [Minecraft/]: [Vault][Economy] Essentials Economy unhooked.
+[18:06:20] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Disabling Vault v1.4.1-b436
+[18:06:20] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v6.0;3342-78f975b9
+[18:06:20] [Server thread/INFO] [FML/]: Unloading dimension 0
+[18:06:20] [Server thread/INFO] [FML/]: Unloading dimension -1
+[18:06:20] [Server thread/INFO] [FML/]: Unloading dimension 1
+[18:06:20] [Server thread/INFO] [FML/]: Unloading dimension 7
+[18:06:20] [Server thread/INFO] [FML/]: Applying holder lookups
+[18:06:20] [Server thread/INFO] [FML/]: Holder lookups applied
